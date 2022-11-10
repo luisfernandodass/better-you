@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mfe-amountOfWaterDrunk';
+  ml = 0;
+
+  addWater(): void {
+    this.ml = this.ml + 400;
+  }
 }

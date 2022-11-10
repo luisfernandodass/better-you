@@ -15,18 +15,18 @@
       cursor: pointer;
       background: transparent;
       border: transparent;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      border-bottom: 1px solid color.$border-color-dark-theme;
       height: 48px;
     }
 
     .tab-selected, button:hover{
-      border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+      border-bottom: 3px solid color.$border-color-dark-theme;
       font-weight: bold;
     }
   }
 
   .mfe-renderizer {
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 1px solid color.$border-color-dark-theme;
     width: 80%;
     height: 80vh;
   }

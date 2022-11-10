@@ -1,0 +1,39 @@
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 300px;
+  height: 300px;
+  border: 1px solid color.$border-color-dark-theme;
+  border-radius: 4px;
+  cursor: pointer;
+  color: color.$text-color-dark-theme;
+
+  .qntd-drinking-water {
+    font-size: 2rem;
+  }
+
+  .add-water {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: color.$text-color-dark-theme;
+    border: 1px solid color.$border-color-dark-theme;
+
+
+    span:nth-child(1) {
+      font-size: 2rem;
+    }
+  }
+
+  .add-water:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
