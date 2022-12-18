@@ -16,22 +16,20 @@ Better You é uma aplicação que contém um shell para renderizar outras aplica
 - Agora rode o comando ``npm run live-server``
 
 ## Preview | Protótipo da aplicação
-<img src="">
+<img src="![Uploading image.png…]()
+">
 
 ## License
-<img src="https://img.shields.io/github/license/luisfernandodass/better-you"/>
+<img src="https://img.shields.io/github/license/luisfernandodass/beter-you"/>
 
 ## Desenvolvido por
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67171626?s=460&u=609fc063322b859752a5675bd4e17657e650a389&v=4" width="100px;" alt=""/>  
 
-<b>Luis Fernando</b>
+<b>Luis Fernando</b>  
 
 Entre em contato comigo pelos links abaixo:
 
-
-- Entre 
-- No mfe-amountOfWaterDrunk rode o comando ``npx live-server``.
-- Acesse a porta http://127.0.0.1.8080
-- A cada mudança nesse mfe, dê um npm run build novamente.
+[![Linkedin Badge](https://img.shields.io/badge/-Luis-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luisfernando/)](https://www.linkedin.com/in/luisfernando/) [![Gmail Badge](https://img.shields.io/badge/-luisfernandodass@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:luisfernandodass@gmail.com)](mailto:luisfernandodass@gmail.com)
 
 - Agora na aplicação host, o shell rode o comando ``ng serve``
 - Acesse a porta http://localhost:4200
