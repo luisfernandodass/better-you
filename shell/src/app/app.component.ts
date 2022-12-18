@@ -10,15 +10,11 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     const script = document.createElement('script');
-    script.src = 'http://127.0.0.1:8080/dist/mfe-amount-of-water-drunk/main.js';
+    script.src = 'http://127.0.0.1:8081/dist/mfe-amount-of-water-drunk/main.js';
     document.body.appendChild(script);
 
     const script2 = document.createElement('script');
-    script2.src = 'http://127.0.0.1:8080/dist/mfe-amount-of-water-drunk/main.js';
+    script2.src = 'http://127.0.0.1:8082/dist/mfe-pomodoro/main.js';
     document.body.appendChild(script2);
-  }
-
-  selectMfe(event: Event): void {
-    (event.currentTarget as HTMLElement).classList.toggle('btn-active-mfe');
   }
 }
