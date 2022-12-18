@@ -1,33 +1,40 @@
+app-nav {
+  width: 100%;
+}
+
 .shell-better-you {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
 
-  .tabs {
+  .row-grid {
+    height: 500px;
+    width: 100%;
+
     display: flex;
-    justify-content: center;
-    height: fit-content;
-    margin-top: 1rem;
+    gap: 1rem;
 
-    button {
-      font-family: 'Roboto';
-      cursor: pointer;
-      background: transparent;
-      border: transparent;
-      border-bottom: 1px solid color.$border-color-dark-theme;
-      height: 48px;
+    .app-card {
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      padding: 24px;
+      background: #fff;
+
+      border: 1px solid #fff;
+      box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 100%);
+      border-radius: 8px;
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: max-content;
+        font-family: 'Roboto';
+      }
     }
-
-    .tab-selected, button:hover{
-      border-bottom: 3px solid color.$border-color-dark-theme;
-      font-weight: bold;
-    }
-  }
-
-  .mfe-renderizer {
-    border: 1px solid color.$border-color-dark-theme;
-    width: 80%;
-    height: 80vh;
   }
 }
